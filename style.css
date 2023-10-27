@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand";
+}
+/* first page */
+.first-page{
+    background-image: url(bg-1.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: fixed; */
+    /* z-index: -10; */
+}
+.navbar{
+    background: transparent;
+}
+.hepta{
+    font-size: 23px;
+}
+.navbar-brand{
+    font-size: xx-large;
+}
+.Collapsed{
+    font-size: 25px;
+    font-family:DM serif Display;
+}
+.brand{
+    font-size: 20px;
+    font-family: DM Serif Display
+}
+.travel-text{
+    font-size: 100px;
+    font-family:DM serif Display;
+}
+.btn{
+    border: 2px solid  !important;
+    width: 170px;
+    height: 55px;
+    font-weight: 400 !important;
+    line-height: 1.5 !important;
+}
+.btn:hover{
+    background-color: white;
+    color: black !important;
+    border: none !important;
+}
+/* second page */
+.image1{
+    margin: 100px 0 0 100px;
+   width: 500px;
+   height: 500px;
+   border-left: 10px solid #316D89;
+   border-right: 10px solid #316D89;
+}
+.welcome{
+    font-family:DM serif Display;
+    
+}
+h3{
+    color: #3B9AFF !important;
+ /* font-weight: 600 !important;   */
+}
+/* third page */
+.third{
+    background-color: #F4F1F4;
+    /* height: 100vh; */
+    width: 100%;
+    border-top: 1px solid black;
+}
+.Experience{
+    text-align: center;
+
+}
+.icons{
+    font-size: 50px;
+    color: #316D89;
+}
+.card-title{
+ font-size: 30px;
+ font-family: DM Serif Display;
+ 
+}
+.cards{
+    background: transparent !important;
+    border: none !important;
+    margin-left: 80px;
+}
+.tour{
+    font-size: 70px;
+    font-family: DM Serif Display;
+}
+.blue{
+    background-color: #06BDBD;
+    width: 100%;
+}
+.post{
+    font-size: 70px;
+    font-weight: 600;
+    font-family: DM Serif Display;
+}
+.card2{
+    /* width: 300px !important; */
+    margin-left: 80px;
+}
+.carousel-inner{
+    width: 400px;
+    height: 500px;
+}
+.row{
+    --bs-gutter-x: 0 !important;
+}
+.card3{
+    border: none !important;
+    margin-left: 80px;
+}
+.circleimg{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    
+}
+.card-text{
+    font-size: 20px;
+
+}
+.happy{
+    font-size: 60px;
+    font-weight: 600;
+}
+.name{
+    color: #6C757D;
+    font-size: 20px;
+}
+
+/* seventh */
+.seventhbg{
+    background-color: #E0E2E4;
+    width: 100%;
+
+}
+.top{
+    font-size: 50px;
+    font-weight: 600;
+    font-family: DM Serif Display;   
+}
+
+.star{
+    color: #3B9AFF;
+}
+/* footer */
+.last{
+    background-color: #1C1B1B;
+    width: 100%;
+}
+.email{
+    border: none;
+    background: transparent;
+}
+.paper:hover{
+    color: blue !important;
+    cursor: pointer;
+}
+.gray{
+    color: #6C756D;
+}
+a{
+    color: #6C756D !important;
+    text-decoration: none !important;
+}
+.borderl{
+    border-bottom:1px solid #6C756D;
+}
+.copyright{
+    color: #6C756A;
+
+}
+.footericon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0 39%;
+    /* align-items: center; */
+}
+.scroll{
+    font-size: 20px;
+}
+
+.card-text-w {
+    width: 300px;
+}
+
+/* media query */
+
+@media screen and (max-width: 480px) {
+    .travel-text{
+        font-size: 70px;
+    }
+    .image1{
+        margin-left: 0;
+        width: 370px;
+    }
+    .Welcome{
+        margin-left: 25px;
+        font-size: 20px;
+    }
+    .Welcomepara{
+        margin-left: 25px;
+    }
+    .Watch{
+        margin-left: 25px;
+    }
+    .experiencetext{
+        font-size: 23px;
+    }
+    
+
+    .tour{
+        font-size: 50px;
+    }
+   .post{
+    font-size: 50px;
+   }
+    .card2{
+        margin-left: 17px;
+        margin-bottom: 60px;
+    }
+    .happy{
+        font-size: 60px;
+    }
+    .card3{
+        margin-right: 25px;
+    }
+    .card4{
+        margin:30px;
+    }
+    .footericon{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 0 20%;
+    }
+}
+/* for tablet */
+@media screen and (max-width: 550px){
+
+    
+}
